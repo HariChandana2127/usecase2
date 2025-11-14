@@ -6,8 +6,8 @@ pipeline {
     }
     environment {
         APPLICATION_NAME = 'spring-petclinic'
-        BUCKET_NAME = 'venkat-473005'
-        YOUR_PROJECT_ID = 'venkat-473005'
+        BUCKET_NAME = 'chandana21_bucket'
+        YOUR_PROJECT_ID = 'leafy-rope-472907-e3'
         BUILD = '/var/lib/jenkins/workspace/nag-first/spring-petclinic'
         UPLOAD_GCS = '/var/lib/jenkins/workspace/nag-first/spring-petclinic/target'
         ARTIFACT = 'spring-petclinic-4.0.0-SNAPSHOT.jar'
