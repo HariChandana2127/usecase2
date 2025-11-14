@@ -11,7 +11,7 @@ pipeline {
         BUILD = '/var/lib/jenkins/workspace/usecase2/spring-petclinic'
         UPLOAD_GCS = '/var/lib/jenkins/workspace/usecase2/spring-petclinic/target'
         ARTIFACT = 'spring-petclinic-4.0.0-SNAPSHOT.jar.jar'
-
+        MAVEN_OPTS = "-Dmaven.repo.local=/var/lib/jenkins/.m2/repository"
     }
     stages {
         stage('checkout') {
